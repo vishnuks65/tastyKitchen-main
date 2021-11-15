@@ -1,0 +1,215 @@
+.hotel-details {
+  height: 230px;
+  width: 100%;
+  background-color: #333333;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .hotel-details {
+    height: 300px;
+  }
+}
+.container {
+  display: flex;
+  width: 100%;
+  margin: 0px;
+}
+.hotels-image {
+  height: 221px;
+  width: 221px;
+  margin-left: -78px;
+  border-radius: 133.9812469482422px;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 10px;
+  }
+  .hotels-image {
+    height: 280px;
+    width: 445px;
+    left: 165.0000762939453px;
+    top: 32px;
+    border-radius: 8px;
+    margin-left: 20px;
+  }
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+.hotel-name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+.cuisine-type {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+}
+.location {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .hotel-name {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+  }
+  .cuisine-type {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+  .location {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+}
+.details-container-2 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.opening {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+}
+.cost {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+}
+.counts {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #e2e8f0;
+}
+.ratings-details {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+.rating-containers {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+.counts {
+  margin-left: 10px;
+}
+@media screen and (min-width: 768px) {
+  .opening {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .ratings-details {
+    font-size: 16px;
+  }
+  .star {
+    height: 16px;
+    width: 14px;
+  }
+}
+.dish-heading {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #334155;
+}
+.prices {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #334155;
+}
+.dish-type {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: red;
+}
+.rating-detail {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #1e293b;
+}
+.food-details-container {
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .food-details-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+  }
+}

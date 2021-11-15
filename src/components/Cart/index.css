@@ -1,0 +1,138 @@
+.cart-container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-container {
+    /* min-height: 100vh; */
+    margin-top: 30px;
+  }
+}
+
+.cart-content-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  overflow-y: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-content-container {
+    width: 80%;
+    max-width: 1110px;
+    overflow-y: auto;
+  }
+}
+
+.remove-all-btn {
+  display: flex;
+  align-self: flex-end;
+  color: #0b69ff;
+  background: transparent;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+/* cart summary */
+.cart-summary-container {
+  display: flex;
+  justify-content: space-around;
+  /* flex-direction: column; */
+  /* align-self: flex-end; */
+}
+
+@media screen and (max-width: 768px) {
+  .cart-summary-container {
+    margin-top: 20px;
+  }
+}
+
+.order-total-value {
+  color: #171f46;
+  font-family: DM Sans;
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+
+@media screen and (min-width: 768px) {
+  .order-total-value {
+    font-size: 24px;
+  }
+}
+
+.order-total-label {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .order-total-label {
+    font-size: 24px;
+  }
+}
+
+.total-items {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin-top: 2px;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .total-items {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+}
+
+.checkout-button {
+  height: 32px;
+  width: 200px;
+  left: 0px;
+  top: 0px;
+  border-radius: 8px;
+  padding: 8px, 16px, 8px, 16px;
+  background: #f7931e;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  border: 0px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 767px) {
+  .d-sm-none {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .d-lg-none {
+    display: none;
+  }
+}
+
+.value-container {
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .value-container {
+    text-align: center;
+  }
+}
